@@ -23,7 +23,9 @@ export default class Landing extends Component {
           <Skills />
         </div>
         <div className="ExperienceL">
-          <Experience/>
+          <Experience />
+        </div>
+        <div className="icon">
         </div>
       </div>
     );
