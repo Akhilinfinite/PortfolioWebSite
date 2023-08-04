@@ -5,6 +5,8 @@ import HeroSection from "../Components/HeroSection/HeroSection";
 import About from "../Components/About/About";
 import Skills from "../Components/Skills/Skills";
 import Experience from "../Components/Experience/Experience";
+import WorkDone from "../Components/Projects/WorkDone";
+import Testmonials from "../Components/Testmonials/Testmonials";
 
 export default class Landing extends Component {
   render() {
@@ -25,7 +27,11 @@ export default class Landing extends Component {
         <div className="ExperienceL">
           <Experience />
         </div>
-        <div className="icon">
+        <div className="Work1">
+          <WorkDone />
+        </div>
+        <div className="Testmonials">
+          <Testmonials />
         </div>
       </div>
     );
