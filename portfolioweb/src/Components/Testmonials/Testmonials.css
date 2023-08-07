@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  margin: 20px 5% 60px 5%;
 }
 .TestmonialsHeader {
   display: flex;
@@ -12,7 +10,7 @@
   margin: 20px 0px;
   width: 140px;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   background-color: #e2e1df;
 }
@@ -27,18 +25,17 @@
 .Testmonialscards {
   display: flex;
   flex-direction: row;
-  width: 1020px;
-  margin: 20px;
+  width: 780px;
+  margin: 20px 20px 60px 20px;
   align-items: center;
   justify-content: center;
 }
 .TestmonialLeftslider {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 40px;
   padding: 20px;
   z-index: 1;
-  left: 230px;
   justify-content: center;
   align-items: center;
 }
@@ -61,12 +58,11 @@
   box-shadow: 4px 4px 8px 2px rgba(56, 56, 56, 0.5);
 }
 .TestmonialRightslider {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 40px;
   padding: 20px;
   z-index: 1;
-  right: 230px;
   justify-content: center;
   align-items: center;
 }

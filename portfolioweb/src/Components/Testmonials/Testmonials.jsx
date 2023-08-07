@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Testmonials.css";
-import right from "./Images/right-arrow.png";
-import left from "./Images/left-arrow.png";
+import right from "./Images/arrow-right.png";
+import left from "./Images/arrow-left.png";
 import TestmonialsCards from "./TestmonialsCards";
 
 export default class Testmonials extends Component {
@@ -184,11 +184,12 @@ export default class Testmonials extends Component {
                 <TestmonialsCards
                   UserProfile={
                     <img
-                      src={require(`./Images/Profile.png`)}
+                      src={require(`./Images/Kishore.jpg`)}
                       alt="Profile"
                       style={{
                         width: "180px",
-                        borderRadius: "10%",
+                        height:"180px",
+                        borderRadius: "90px",
                       }}
                     />
                   }

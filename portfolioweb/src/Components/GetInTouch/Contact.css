@@ -1,0 +1,16 @@
+.ContactComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactTitle {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    width: 140px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e2e1df;
+  }

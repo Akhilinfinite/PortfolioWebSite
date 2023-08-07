@@ -7,6 +7,7 @@ import Skills from "../Components/Skills/Skills";
 import Experience from "../Components/Experience/Experience";
 import WorkDone from "../Components/Projects/WorkDone";
 import Testmonials from "../Components/Testmonials/Testmonials";
+import Contact from "../Components/GetInTouch/Contact";
 
 export default class Landing extends Component {
   render() {
@@ -32,6 +33,9 @@ export default class Landing extends Component {
         </div>
         <div className="Testmonials">
           <Testmonials />
+        </div>
+        <div className="Contact">
+          <Contact/>
         </div>
       </div>
     );
