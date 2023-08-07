@@ -5,7 +5,7 @@ import Mail from "./Images/Mail.png";
 import Phone from "./Images/phone.jpg";
 import github from "./Images/github.png";
 import figma from "./Images/figma.png";
-import twitter from "./Images/twitter.png";
+import Linkedin from "./Images/Linkedin.jpg";
 
 export default class Contact extends Component {
   handleLinkClick = (url) => {
@@ -85,13 +85,19 @@ export default class Contact extends Component {
               src={github}
               alt="Github"
               style={{ paddingRight: "15px", cursor: "pointer" }}
-              onClick={() => this.handleLinkClick("https://github.com")}
+              onClick={() =>
+                this.handleLinkClick("https://github.com/Akhilinfinite")
+              }
             />
             <img
-              src={twitter}
+              src={Linkedin}
               alt="Twitter"
               style={{ paddingRight: "15px", cursor: "pointer" }}
-              onClick={() => this.handleLinkClick("https://twitter.com")}
+              onClick={() =>
+                this.handleLinkClick(
+                  "https://www.linkedin.com/in/akhileswar-reddy-konche-8a43871b1"
+                )
+              }
             />
             <img
               src={figma}
@@ -101,10 +107,10 @@ export default class Contact extends Component {
             />
           </div>
         </div>
-        <div className="Fotter" style={{padding:"15px"}}>
-        <span style={{fontSize:"24px"}}>&#169;</span>&nbsp; 2023 | Degined and coded with&nbsp;
-        <span style={{color:"red"}}>&#10084;</span>&nbsp;
-          by Akhileswar
+        <div className="Fotter" style={{ padding: "15px" }}>
+          <span style={{ fontSize: "24px" }}>&#169;</span>&nbsp; 2023 | Degined
+          and coded with&nbsp;
+          <span style={{ color: "red" }}>&#10084;</span>&nbsp; by Akhileswar
         </div>
       </div>
     );
